@@ -5,7 +5,7 @@
 ##
 %define name	%{cross_prefix}dietlibc
 %define version 0.27
-%define release 12mdk
+%define release  %mkrel 12
 
 # This is eventually a biarch package, so no %_lib for diethome
 %define diethome %{_prefix}/lib/dietlibc
