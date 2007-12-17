@@ -68,7 +68,6 @@ Patch24:	dietlibc-0.27-quiet.patch.bz2
 Patch25:	dietlibc-0.27-ppc-select.patch.bz2
 Patch26:	dietlibc-0.27-kernel2.6-types.patch.bz2
 Patch27:	dietlibc-0.27-cross.patch.bz2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Small libc for building embedded applications.
