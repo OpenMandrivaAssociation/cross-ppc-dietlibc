@@ -37,7 +37,7 @@ Group:		Development/Other
 %if %{build_cross}
 BuildRequires:	%{cross_prefix}gcc
 %endif
-URL:		http://www.fefe.de/dietlibc/
+URL:		https://www.fefe.de/dietlibc/
 Source0:	http://www.fefe.de/dietlibc/dietlibc-%{version}.tar.bz2
 Source1:	build_cross_dietlibc.sh
 Patch0:		dietlibc-0.21-features.patch.bz2
