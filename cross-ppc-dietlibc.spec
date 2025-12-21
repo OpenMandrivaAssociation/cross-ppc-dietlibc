@@ -35,6 +35,7 @@ Release:	%{release}
 License:	GPL
 Group:		Development/Other
 %if %{build_cross}
+BuildRequires:	make
 BuildRequires:	%{cross_prefix}gcc
 %endif
 URL:		https://www.fefe.de/dietlibc/
